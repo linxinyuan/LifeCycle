@@ -13,7 +13,6 @@ public class HookAMN {
             //获取实例类字段
             Object rawIActivityManager = RefInvoke.getFieldObject("android.util.Singleton", gD, "mInstance");
             //设置动态代理
-            Class<?> 
         }catch (Exception e){
 
         }
